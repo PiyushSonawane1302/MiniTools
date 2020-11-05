@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+  }
+  
+  body {
+    line-height: 1.9;
+    background-color: #494848;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    padding: 5px;
+    background:#494848;
+    color: white;
+    margin: 5px 0;
+    
+  }
+  
+   
+header h1{
+    color: #494848;
+    font-size: 35px;
+}
+
+header h1:hover{
+  font-size: 38px;
+}
+
+
+header {
+    /* background: #494848; */
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    /* border-bottom: 10px solid #b2e25a; 
+    border-top:  10px solid #b2e25a;   */
+    border:  10px solid #b2e25a;   
+ 
+}
+ 
+.container {
+    margin: auto;
+    width: 600px;
+    overflow: auto;
+    padding: 3rem 2rem;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.45);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+  
+  }
+  
+  #my-form {
+    padding: 2rem;
+    background: #b2e25a;
+    border-radius: 10px;
+  }
+  
+  #my-form label {
+    display:block;
+    padding-top: 10px;
+    
+  }
+  #my-form h2{
+      text-align: center;
+      padding-bottom: 10px;
+     
+  }
+  
+  #my-form input[type='number'] {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(253, 244, 244);
+    /* box-shadow: inset 8px 8px 8px white ,inset -8px -8px 8px white ; */
+    
+  }
+  
+
+  .btn {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .btn:hover {
+    background: rgb(99, 99, 99);
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  p{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  
+
+.foot{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.social{
+  text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10px;
+}
+
+.fa:hover {
+    /* opacity: 0.7; */
+    width: 55px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #df2f73;
+  color: white;
+}
+
+.as{
+  float: right;
+  padding-right: 50px;
+}
+
+.items a{
+  text-decoration: none;
+  color: white;
+  border: 2px solid yellowgreen;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.items a:hover{
+  background-color: white;
+  color: #494848
+}

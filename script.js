@@ -5,22 +5,19 @@ const msg=document.querySelector('.msg');
 const Ans=document.querySelector('#ans');
 
 
-const cgpa=document.querySelector('#Enter-cgpa');
-const per=document.querySelector('#per');
 
 
 
+// document.getElementById("ans").addEventListener("mouseover", mouseOver);
+// document.getElementById("ans").addEventListener("mouseout", mouseOut);
 
-document.getElementById("ans").addEventListener("mouseover", mouseOver);
-document.getElementById("ans").addEventListener("mouseout", mouseOut);
+// function mouseOver() {
+//     document.getElementById("ans").innerHTML="check your answer here ";
+//   }
 
-function mouseOver() {
-    document.getElementById("ans").innerHTML="check your answer here ";
-  }
-
-function mouseOut() {
-    document.getElementById("ans").innerHTML="Answer";
-  } 
+// function mouseOut() {
+//     document.getElementById("ans").innerHTML="Answer";
+//   } 
 
 
 myForm.addEventListener('submit',onCalculate);

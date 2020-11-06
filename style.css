@@ -169,8 +169,14 @@ header {
 }
 
 .as{
-  float: right;
+
   padding-right: 50px;
+ 
+
+}
+
+.list a{
+  display: inline;
 }
 
 .items a{
@@ -184,4 +190,9 @@ header {
 .items a:hover{
   background-color: white;
   color: #494848
+}
+
+ul li{
+  display: inline-block;
+  padding: 10px;
 }

@@ -5,16 +5,16 @@ const per=document.querySelector('#per');
 
 
 
-document.getElementById("per").addEventListener("mouseover", mouseOver);
-document.getElementById("per").addEventListener("mouseout", mouseOut);
+// document.getElementById("per").addEventListener("mouseover", mouseOver);
+// document.getElementById("per").addEventListener("mouseout", mouseOut);
 
-function mouseOver() {
-    document.getElementById("per").innerHTML="check your answer here ";
-  }
+// function mouseOver() {
+//     document.getElementById("per").innerHTML="check your answer here ";
+//   }
 
-function mouseOut() {
-    document.getElementById("per").innerHTML="Answer";
-  } 
+// function mouseOut() {
+//     document.getElementById("per").innerHTML="Answer";
+//   } 
 
 
 

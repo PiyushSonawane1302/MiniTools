@@ -34,9 +34,9 @@ function onSquare(e)
     }
 
   else{
-  let x=num.value;
-  let y=x*x;
-  document.getElementById('sqr').innerHTML=`Square of ${num.value} is = ${y.toPrecision(4)}  `;
+  let m=num.value;
+  let n=m*m;
+  document.getElementById('sqr').innerHTML=`Square of ${num.value} is = ${n.toPrecision(4)}  `;
 }
 }
 

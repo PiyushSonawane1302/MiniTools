@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
    
-    <title>Mini Calculator</title>
+    <title>Mini Calculator Tools</title>
 </head>
 <body>
     <header>
@@ -17,22 +17,26 @@
 
     <section class="container">
         <form id="my-form">
-            <h2>Square Finder</h2>
+            <h2>Modulo Calculator </h2>
             <div class="msg"></div>
 
             <div>
-                <label for="Enter-cgpa"><h4>Enter Number : </h4></label>
-                <input type="number" step="0.01" id="Enter-num" placeholder="Enter Number">
+                <label for="Enter-value-a"><h4>Enter 1 <sup>st</sup> Number : </h4></label>
+                <input type="number" id="Enter-value-a" placeholder="Enter Number">
             </div>
 
-            
-            <input class="btn" type="submit" value="Find Square" >
+            <div>
+                <label for="Enter-value-b"><h4>Enter 2 <sup>nd</sup> Number :</h4></label>
+                <input type="number" id="Enter-value-b" placeholder="Enter Number">
+            </div>
+            <input class="btn" type="submit" value="Calculate Modulo" >
         </form>
 
-        <p id="sqr">check your answer here </p>
+        <p id="ans">check your answer here </p>
 
 
     </section>
+
     <footer class="foot">By Piyush Sonawane  &copy; 2020</footer>
 
 <footer class="social">
@@ -43,24 +47,23 @@
   
 </footer>
 
-    <aside class="as">
+<div class="tool-container">
+    <aside class="as"></aside>
         <ul class="list">
-            <li class="items">
-                <a href="mod.html"> Modulo Calculator</a>
-            </li>
-           <li class="items">
-                <a href="average.html">Average Calculator</a>
-            </li>
             <li class="items">
                 <a href="cgpa.html">CGPA to Percentage Calculator</a>
             </li>
+            <li class="items">
+                <a href="average.html">Average Calculator</a>
+            </li>
+            <li class="items">
+                <a href="sqr.html">Square Finder</a>
+            </li>
+            
         </ul>
     </aside>
-
-
-    <script src="sqr.js"></script>
-
-
+</div>
+    <script src="mod.js"></script>
 </body>
 </html>
 

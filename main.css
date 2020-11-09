@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+  }
+
+.vec-img img
+{
+    margin-left: 36%;
+    margin-top: 1%;
+}
+
+.button{
+    margin-top: 60px;
+    margin-left: 47%;
+    padding: 10px;
+    color:#494848;
+    background-color: #b2e25a;
+    border-radius: 8px;
+    border-color: #b2e25a;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: #494848;
+    color: white;
+    border-color:#494848;
+}
+
+header h1{
+    color: #494848;
+    font-size: 35px;
+   
+}
+
+header h1:hover{
+  font-size: 38px;
+}
+
+
+header {
+    /* background: #494848; */
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    /* border-bottom: 10px solid #b2e25a; 
+    border-top:  10px solid #b2e25a;   */
+    border:  10px solid #b2e25a;   
+    border-radius: 5px;
+}
+ 

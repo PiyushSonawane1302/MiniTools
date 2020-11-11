@@ -40,7 +40,7 @@ header {
     text-align: center;
     /* border-bottom: 10px solid #b2e25a; 
     border-top:  10px solid #b2e25a;   */
-    border:  10px solid #b2e25a;   
+    border:  10px solid #5dd782;   
  
 }
  
@@ -59,7 +59,7 @@ header {
   
   #my-form {
     padding: 2rem;
-    background: #b2e25a;
+    background: #5dd782;
     border-radius: 10px;
   }
   
@@ -182,7 +182,7 @@ header {
 .items a{
   text-decoration: none;
   color: white;
-  border: 2px solid yellowgreen;
+  border: 2px solid #5dd782;
   border-radius: 5px;
   padding: 8px;
 }
